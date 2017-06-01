@@ -1,0 +1,2 @@
+; random numbers
+repeat 10 [ show random 200 ]

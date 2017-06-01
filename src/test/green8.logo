@@ -1,0 +1,10 @@
+; parameterless user procedure
+to one
+  show 1
+end
+one
+
+
+
+
+

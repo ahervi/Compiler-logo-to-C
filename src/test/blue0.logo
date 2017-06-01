@@ -1,0 +1,14 @@
+; basic movements
+forward 100/3
+left 30 right 30
+forward 100/6
+right 25 left 25
+forward 100/3
+right 25 left 25
+forward 100/6
+back 100
+show xcor + ycor
+
+
+
+

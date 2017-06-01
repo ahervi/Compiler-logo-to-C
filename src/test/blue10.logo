@@ -1,0 +1,9 @@
+; procedure redefinition
+to display :arg
+  show :arg
+end
+to display
+  show 1
+end
+display
+

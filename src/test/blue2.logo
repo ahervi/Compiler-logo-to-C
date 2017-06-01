@@ -1,0 +1,4 @@
+; one-branch conditional
+if 0 > 1 [show 1]
+show 0
+

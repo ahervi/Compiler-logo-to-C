@@ -1,0 +1,9 @@
+; duplicate formal parameters
+
+to display :arg :arg
+  show :arg
+end
+
+display 1 1
+
+

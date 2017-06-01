@@ -1,0 +1,5 @@
+; global variable used in global scope
+make "global 1
+show :global
+
+

@@ -1,0 +1,3 @@
+; random numbers applied to lists
+repeat 10 [ show pick [ foo ] ]
+

@@ -1,0 +1,3 @@
+; nested repeat
+repeat 5 [repeat 5 [show 1]]
+

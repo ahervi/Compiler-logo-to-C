@@ -1,0 +1,5 @@
+; simplified square
+to square :length
+  repeat 4 [ fd :length rt 90 ]
+end
+repeat 36 [ square 100 rt 10 ]

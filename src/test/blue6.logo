@@ -1,0 +1,4 @@
+; two-branch conditional
+ifelse 0 = 1 [show 0][show 1]
+
+

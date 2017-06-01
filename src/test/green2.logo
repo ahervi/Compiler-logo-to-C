@@ -1,0 +1,2 @@
+; basic priority of arithmetic operators (check in ANTLR Preview)
+show 1+2*3

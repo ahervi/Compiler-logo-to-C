@@ -1,0 +1,11 @@
+; one-parameter user procedure
+to display :arg
+  show :arg
+end
+display 7
+
+
+
+
+
+

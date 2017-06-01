@@ -1,0 +1,3 @@
+if true [show 1]
+ifelse false [show 1] [show 0]
+

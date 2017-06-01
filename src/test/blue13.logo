@@ -1,0 +1,9 @@
+; using global variables in global scope
+make "arg 0
+
+to display :arg
+  show :arg
+end
+
+display 1
+

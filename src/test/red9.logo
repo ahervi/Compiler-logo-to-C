@@ -1,0 +1,7 @@
+; type error
+to test :a
+   if :a [show true]
+end
+test 1
+
+

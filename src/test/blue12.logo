@@ -1,0 +1,26 @@
+; using global variables in global scope
+make "calls 0
+
+to line :count :length
+ make "calls :calls + 1
+ ifelse :count = 1 [fd :length]
+ [
+   make "count :count-1
+   line :count :length
+   lt 60 line :count :length
+   rt 120 line :count :length
+   lt 60 line :count :length
+  ]
+end
+
+to koch :count :length
+  rt 30 line :count :length
+  rt 120 line :count :length
+  rt 120 line :count :length
+end
+
+clearscreen
+
+koch 3 5
+show :calls
+

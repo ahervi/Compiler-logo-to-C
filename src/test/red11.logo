@@ -1,0 +1,7 @@
+; type error
+to display :arg
+  show :arg
+end
+display 1
+display "a
+

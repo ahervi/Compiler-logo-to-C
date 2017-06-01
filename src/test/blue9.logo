@@ -1,0 +1,6 @@
+; wrong arity
+to display :arg
+  show :arg
+end
+display
+
