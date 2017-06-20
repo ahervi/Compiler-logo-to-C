@@ -1,16 +1,6 @@
-struct list {
-    int size;
-    char** content;
-};
-
-typedef struct list * plist;
-
+void showFloat(float i);
 void clearScreen();
-void showNUM(float i);
-void showBOOL(bool i);
-void showSTR(char s[]);
-void showLIST(plist p);
-
+void showBool(bool i);
+void showString(char s[]);
 float random(int a);
-char* pick(plist p);
-void setpencolor(char pick[], SDL_Renderer * renderer);
+void setpencolor(int pick[3], SDL_Renderer * renderer);
